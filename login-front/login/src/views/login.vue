@@ -6,8 +6,8 @@
                 <img src="../assets/name.png" width="100%">
                 <div>
                     <div style=" position: absolute;top: 112px;left: 128px;">
-                        <span>注册码：</span>
-                        <input type="text" class="inputCss" style="font-size:14px;" v-model="pollCode" @keydown="keyEnter">
+                        <span style="color:#999;">注册码：</span>
+                        <input type="text" class="inputCss" style="font-size:14px;width:50px;margin-left:6px;" v-model="pollCode" @keydown="keyEnter">
                     </div>
                     <div style=" position: absolute;top: 222px;left: 128px;">
                         <img src="../assets/xm.png" alt="" width="60">
