@@ -77,6 +77,9 @@ export default {
                     } else {
                         window.alert(res.message)
                     }
+                }).catch((err) => {
+                    console.error(err)
+                    window.alert('操作失败!')
                 })
             }
         }
