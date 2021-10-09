@@ -1,7 +1,7 @@
 const mongoose = require('./index')
 const Schema = mongoose.Schema
 
-const usersSchema = new Schema({
+const lemonSchema = new Schema({
     name: {
         required: true,
         type: String
@@ -16,4 +16,4 @@ const usersSchema = new Schema({
     }
 })
 
-module.exports = mongoose.model('lemon', usersSchema)
+module.exports = mongoose.model('lemon', lemonSchema)
